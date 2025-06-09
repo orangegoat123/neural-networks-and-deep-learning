@@ -1,0 +1,27 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# 忽略所有 .pth 权重文件
+*.pth
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.weights
+
+# 忽略其他不需要的文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+env/
+venv/
+*.log
+*.bak
+*.backup
+*.swp
+*.swo
+*.tmp
